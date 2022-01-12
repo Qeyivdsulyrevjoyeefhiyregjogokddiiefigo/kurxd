@@ -125,11 +125,11 @@ let family100 = [];
 ky_ttt = []
 tttawal= ["0️⃣","1️⃣","2️⃣","3️⃣","4️⃣","5️⃣","6️⃣","7️⃣","8️⃣","9️⃣"]
 cmhit = []
-fake = "/> Tato KurrXd";
-autorespon = false
-playmusic = false
+fake = "Peaky";
+autorespon = true
+playmusic = true
 menusimpel = false
-menuall = false
+menuall = true
 baterai = {
 battery: "" || "Not detected",
 isCharge: "" || false
@@ -509,10 +509,10 @@ const ftrol = {
                         },
        message: {
                     orderMessage: {
-                            itemCount : 99999,
+                            itemCount : 1914-1918,
                             status: 1,
                             surface : 1,
-                            message: `BOT AKTIF SELAMA : ${waktu(runtime)}`, //Kasih namalu
+                            message: `Hidup Aldolf Hitler`, //Kasih namalu
                             orderTitle: `KurrXdゑ v.3.0`,
                             thumbnail: ofrply3, //Gambarnye
                             sellerJid: '0@s.whatsapp.net' 
@@ -6012,7 +6012,7 @@ buttons = [{buttonId:`.ytmp3 ${res.all[0].url}`,buttonText:{displayText:'🎵AUD
 
 imageMessage = (await kurr.prepareMessageMedia({url:res.all[0].image},'imageMessage',{thumbnail:Buffer.alloc(0)})).imageMessage
 
-buttonsMessage = {contentText: thumbInfo,footerText:'Silahkan Pilih Jenis File Dibawah Ini',imageMessage,buttons,headerType:4}
+buttonsMessage = {contentText: thumbInfo,footerText:'choose Audio Or Video ',imageMessage,buttons,headerType:4}
 
 prep = await kurr.prepareMessageFromContent(from,{buttonsMessage},{})
 
@@ -6642,7 +6642,7 @@ Giliran = @${tty.player1.split('@')[0]}`
             if (!e.includes("Cannot set property 'mtype' of undefined")) {
             if (!e.includes("jid is not defined")) {
      console.log(color('|ERR|', 'red'), color(e, 'cyan'))
-     kurr.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdreply:{title: "Developer Yuki ゑ",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./logonya.jpeg'),sourceUrl:"https://wa.me/p/6349482305092740/6281220670449"}}})
+     kurr.sendMessage(`${settings.NomorOwner}@s.whatsapp.net`, `─────「 *ALERT-ERROR* 」─────\n\n\`\`\`${e}\`\`\`\n\n────────────────────`, MessageType.text, {contextInfo: { forwardingScore: 508, isForwarded: true, externalAdreply:{title: "Developer Yuki ゑ",body:"",previewType:"PHOTO",thumbnail:fs.readFileSync('./logonya.jpeg'),sourceUrl:"https://wa.me/p/0/0"}}})
 	}
     }
     }
@@ -6654,10 +6654,5 @@ Giliran = @${tty.player1.split('@')[0]}`
 ///-------------------------------------------------------------\\\
 
 /**
-* Thx To:
-KurrXd
-Dcode Denpa
-Yuzzu Kamiyaka
-**/
-
+* 
 ///----------( Thx Dah Pake Scriptnya )----------\\\
